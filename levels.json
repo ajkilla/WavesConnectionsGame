@@ -1,0 +1,30 @@
+{
+    "level1": {
+        "listOfwords":[ 
+            "apple", "banana", "orange", "pear",
+            "dog", "cat", "elephant", "lion",
+            "red", "blue", "green", "yellow",
+            "USA", "Canada", "France", "Japan"
+        ],
+        "categories": {
+            "FRUITS": ["apple", "banana", "orange", "pear"],
+            "ANIMALS": ["dog", "cat", "elephant", "lion"],
+            "COLORS": ["red", "blue", "green", "yellow"],
+            "COUNTRIES": ["USA", "Canada", "France", "Japan"]
+        }
+    },
+    "level2": {
+        "listOfwords": [ 
+            "apple1", "banana1", "orange1", "pear1",
+            "dog1", "cat1", "elephant1", "lion1",
+            "red1", "blue1", "green1", "yellow1",
+            "USA1", "Canada1", "France1", "Japan1"
+        ],
+        "categories": {
+            "FRUITS1": ["apple1", "banana1", "orange1", "pear1"],
+            "ANIMALS1": ["dog1", "cat1", "elephant1", "lion1"],
+            "COLORS1": ["red1", "blue1", "green1", "yellow1"],
+            "COUNTRIES1": ["USA1", "Canada1", "France1", "Japan1"]
+        }
+    }
+}
