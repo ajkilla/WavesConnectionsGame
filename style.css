@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+}
+.cell {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cell.clicked {
+    background-color: rgb(230, 217, 173);
+}
+
+.cell.matched {
+    background-color: rgb(230, 217, 173);
+}
+.heart {
+    color: red;
+    font-size: 24px;
+   
+  }
+
+.health {
+    align-self: auto;
+    justify-self: left;
+    text-align: center;
+
+}
