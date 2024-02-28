@@ -3,16 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.min.css">
 </head>
 <body>
-    <div class="grid" id="grid"></div>
-    <div class="health" id="healthDisplay">
-        <span class="heart">❤️</span>
-        <span class="heart">❤️</span>
-        <span class="heart">❤️</span>
-      </div>
-    <script src="/script.js"></script>
+    <div class="container">
+        <h1 class="h1">Connect @ Wave</h1>
+        
+        
+        <div class="infoBoard" id="infoBoard">
+            
+            <div id="displayLevel"></div>
+            <div id="Player">Player's Name:</div>
+            <div id="displayName"></div>
+            <div id="displayScore">Score:</div>
+            <div id="score">0</div>
+            <button id="nextLevelButton">Next Level</button>
+                    <button class="AvatarSelectionButton" onclick="showAvatarBox()">Select Avatar</button>
+                    <div id="avatarBox" style="display: none;">
+                        <img src="Monster1.PNG" alt="Avatar 1" class="avatar" onclick="selectAvatar('Monster1.PNG')">
+                        <img src="Monster2.PNG" alt="Avatar 2" class="avatar" onclick="selectAvatar('Monster2.PNG')">
+                        <!-- Add more avatars as needed -->
+                        
+                    </div>
+                    <div id="defaultAvatar" class="showPic">
+                        
+                    </div>
+            
+        </div>
+
+    </div>
+        <button class="submit-button" id="submit-button">Submit</button>
+        <button class="resetGame" id="resetGame">Reset</button>
+        
+
+        <!-- <button class="shuffle" id="shuffle">Shuffle</button> -->
+        <div class="grid" id="grid"></div>
+        <div class="health" id="healthDisplay">
+            <span class="heart">❤️</span>
+            <span class="heart">❤️</span>
+            <span class="heart">❤️</span>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/script2.js"></script>
 </body>
 </html>
